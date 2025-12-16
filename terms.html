@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terms & Conditions | HomeCare</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f8f9fa;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .terms-container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 35px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    .terms-title {
+      font-weight: 700;
+      color: rgb(206, 80, 149);
+    }
+
+    .terms-container h5 {
+      margin-top: 25px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .terms-container p,
+    .terms-container li {
+      color: #555;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .accept-box {
+      background: #f3ecff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    .btn-accept {
+      background: rgb(206, 80, 149);
+      color: #fff;
+      border-radius: 25px;
+      padding: 8px 25px;
+      border: none;
+    }
+
+    .btn-accept:hover {
+      background: #b04080;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="terms-container">
+    <h2 class="terms-title text-center mb-4">Terms & Conditions</h2>
+
+    <p>
+      Welcome to <strong>HomeCare</strong>. By using our app or services, you agree
+      to the following Terms & Conditions. Please read them carefully.
+    </p>
+
+    <h5>1. Service Overview</h5>
+    <p>
+      HomeCare connects users with qualified caregivers for home nursing,
+      elderly care, physiotherapy, and other healthcare services. We act as
+      a platform and do not directly provide medical treatment.
+    </p>
+
+    <h5>2. Eligibility</h5>
+    <ul>
+      <li>You must be at least 18 years old to use this app.</li>
+      <li>Accurate personal and medical information must be provided.</li>
+    </ul>
+
+    <h5>3. User Responsibilities</h5>
+    <ul>
+      <li>Respect caregivers and staff.</li>
+      <li>Provide a safe working environment.</li>
+      <li>No misuse, abuse, or illegal activities.</li>
+    </ul>
+
+    <h5>4. Caregiver Responsibilities</h5>
+    <ul>
+      <li>Provide services professionally and ethically.</li>
+      <li>Maintain confidentiality of patient data.</li>
+      <li>Follow assigned schedules and duties.</li>
+    </ul>
+
+    <h5>5. Payments & Cancellations</h5>
+    <p>
+      Payments must be made through authorized methods in the app.
+      Cancellation policies vary depending on service type and timing.
+    </p>
+
+    <h5>6. Privacy & Data Protection</h5>
+    <p>
+      All personal and medical data is handled according to our Privacy Policy.
+      We ensure reasonable security measures to protect your information.
+    </p>
+
+    <h5>7. Limitation of Liability</h5>
+    <p>
+      HomeCare is not responsible for medical outcomes, emergencies,
+      or indirect damages arising from services booked through the app.
+    </p>
+
+    <h5>8. Termination of Account</h5>
+    <p>
+      We reserve the right to suspend or terminate accounts that violate
+      our terms without prior notice.
+    </p>
+
+    <h5>9. Changes to Terms</h5>
+    <p>
+      These Terms may be updated periodically. Continued use of the app
+      indicates acceptance of updated Terms.
+    </p>
+
+    <h5>10. Contact Us</h5>
+    <p>
+      📧 Email: support@homecareapp.com<br>
+      📞 Phone: +91 98765 43210
+    </p>
+
+    <div class="accept-box d-flex align-items-center justify-content-between flex-wrap">
+      <div>
+        <input type="checkbox" id="acceptTerms">
+        <label for="acceptTerms"> I agree to the Terms & Conditions</label>
+      </div>
+      <button class="btn btn-accept mt-2 mt-md-0" onclick="acceptTerms()">
+        Accept
+      </button>
+    </div>
+  </div>
+
+  <script>
+    function acceptTerms() {
+      const checkbox = document.getElementById("acceptTerms");
+      if (!checkbox.checked) {
+        alert("Please accept the Terms & Conditions");
+      } else {
+        alert("Thank you for accepting our Terms & Conditions ");
+      }
+    }
+  </script>
+
+</body>
+</html>

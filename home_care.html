@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareTakerHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"  crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="homecare.css">
+    <!--bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.4/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- title icon -->
+    <link rel="icon" type="image/x-icon" href="/images/careicon2.png">  
+
+
+    <link rel="stylesheet" href="homecare.js">
+  </head>
+<body>
+    
+
+<!-- Navbar -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm py-3 sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-4 " href="#"><h2 class="n">CareTakerHub</h2></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about_us">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#caregivers">Caregivers</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#bubbleReviews">Reviews</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn text-light px-3 ms-2" id="Login" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!--backgroung image and text-->
+
+
+<div class="hero" id="home">
+    <div class="bg"></div>
+    <div class="bg_text">
+        <p>Compassionate <br> care for your loved ones</p>
+    </div>
+</div>
+
+
+
+<!--About us-->
+
+
+<div class="container">
+  <div class="row align-items-center g-4">
+
+
+<!-- LEFT SIDE CARD -->
+
+
+  <div class="col-lg-6">
+      <div id="about_us" class="card shadow-sm">
+        <div class="card-body ">
+          <h2 class="card-title display-6 fw-bold align-items-center fade-up">
+            Our story of <span style="color: rgb(206, 80, 149); font-weight: bold;">Care</span>
+          </h2>
+          <p class="card-text text-muted">
+            We believe every elder deserves to feel valued and cared for. With gentle support, companionship, 
+            and trustworthy service, we create a warm environment where seniors can live comfortably and happily.
+            Our team is committed to treating your loved ones like family. Our service is built on trust, respect, 
+            and quality care. With trained caregivers and personalized support plans, we ensure each individual 
+            receives the attention and care they need. We focus on safety, comfort, and well-being, giving 
+            families peace of mind.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- RIGHT SIDE CARD -->
+
+
+    <div class="col-lg-6">
+      <div class="card glass shadow-sm">
+        <div class="card-body">
+          <div class="d-flex gap-3 align-items-center">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3d5adb1a2a6a4f3c9a5f3a2c2f9e8bfa"
+                 alt="elder-care"
+                 class="rounded"
+                 style="width:140px;height:120px;object-fit:cover">
+
+            <div>
+              <h5 class="mb-1">Companion & Home Care</h5>
+              <p class="mb-1 text-muted small">
+                From daily assistance to medication reminders — compassionate support tailored to your loved one.
+              </p>
+              <small class="text-muted">
+                <i class="bi bi-clock"></i> Available 24/7 •
+                <i class="bi bi-shield-check"></i> Background-checked
+              </small>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--services-->
+
+
+<section class="why-choose-us py-5" id="services">
+  <div class="container">
+
+    <div class="text-center mb-4">
+      <h2 class="fw-bold mb-2" style="color:#b63b7f;">Why Choose Us</h2>
+      <p class="mb-0 text-muted">Compassionate, trustworthy home care tailored for your loved ones.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center mt-4">
+
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="feature-card p-4 h-100 d-flex">
+          <div class="icon-circle me-3">
+            <i class="bi bi-heart-fill"></i>
+          </div>
+          <div>
+            <h5 class="fw-bold">Compassionate Caregivers</h5>
+            <p class="small text-muted">Warm, patient-centered support from trained caretakers.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="feature-card p-4 h-100 d-flex">
+          <div class="icon-circle me-3">
+            <i class="bi bi-person-badge-fill"></i>
+          </div>
+          <div>
+            <h5 class="fw-bold">Personalized Plans</h5>
+            <p class="small text-muted">Custom care plans that adapt to each elder’s needs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="feature-card p-4 h-100 d-flex">
+          <div class="icon-circle me-3">
+            <i class="bi bi-shield-check"></i>
+          </div>
+          <div>
+            <h5 class="fw-bold">Trusted & Verified</h5>
+            <p class="small text-muted">All caregivers are background-checked and professionally trained.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="feature-card p-4 h-100 d-flex">
+          <div class="icon-circle me-3">
+            <i class="bi bi-clock-history"></i>
+          </div>
+          <div>
+            <h5 class="fw-bold">24/7 Assistance</h5>
+            <p class="small text-muted">Reliable support available day and night.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="feature-card p-4 h-100 d-flex">
+          <div class="icon-circle me-3">
+            <i class="bi bi-capsule-pill"></i>
+          </div>
+          <div>
+            <h5 class="fw-bold">Medical Reminders</h5>
+            <p class="small text-muted">Medication prompts, mobility help, and health monitoring.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="feature-card p-4 h-100 d-flex">
+          <div class="icon-circle me-3">
+            <i class="bi bi-chat-left-text-fill"></i>
+          </div>
+          <div>
+            <h5 class="fw-bold">Family Updates</h5>
+            <p class="small text-muted">Regular progress reports to keep families informed.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!--caregivers-->
+
+
+
+<section class="py-5 caregivers-carousel-section" id="caregivers">
+  <div class="container" >
+    <div class="text-center mb-4">
+      <h2 class="fw-bold section-title">Our Caregivers</h2>
+      <p class="text-muted">Skilled, compassionate caregivers you can trust.</p>
+    </div>
+
+  <!-- Carousel -->
+    
+
+<section id="caregivers" class="py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h3 class="mb-0">Meet Our Caregivers</h3>
+      <div>
+        <button class="btn btn-sm btn-outline-secondary me-2" data-bs-target="#caregiversCarousel" data-bs-slide="prev" aria-label="Previous">
+          ‹
+        </button>
+        <button class="btn btn-sm btn-outline-secondary" data-bs-target="#caregiversCarousel" data-bs-slide="next" aria-label="Next">
+          ›
+        </button>
+      </div>
+    </div>
+
+    <div id="caregiversCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row gx-3">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card caregiver-card h-100 shadow-sm">
+                <img src="/images/caretaker_female7.jpg" class="card-img-top" alt="Caregiver 1">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Anita Sharma</h5>
+                  <small class="text-muted">Senior Caregiver</small>
+                  <p class="card-text mt-2 mb-3 text-muted small">10+ years experience in elderly care, medication management and companionship.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="rating">⭐️ 4.9</div>
+                    <a href="anita_sharma.html" class="btn btn-sm view">View Profile</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card caregiver-card h-100 shadow-sm">
+                <img src="/images/caretaker_male1.jpg" class="card-img-top" alt="Caregiver 2">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Ramesh Kumar</h5>
+                  <small class="text-muted">Nursing Assistant</small>
+                  <p class="card-text mt-2 mb-3 text-muted small">Skilled in wound care and daily living assistance with patient-first approach.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="rating">⭐️ 4.8</div>
+                    <a href="ramesh_kumar.html" class="btn btn-sm view">View Profile</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 col-lg-4 d-none d-lg-block">
+              <div class="card caregiver-card h-100 shadow-sm">
+                <img src="/images/caretaker_female6.jpg" class="card-img-top" alt="Caregiver 3">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Meera Patel</h5>
+                  <small class="text-muted">Companion & Therapist</small>
+                  <p class="card-text mt-2 mb-3 text-muted small">Provides meaningful activities, mental stimulation and emotional support.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="rating">⭐️ 4.9</div>
+                    <a href="meera_patel.html" class="btn btn-sm view">View Profile</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row gx-3">
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card caregiver-card h-100 shadow-sm">
+                <img src="/images/caretaker_female5.jpg" class="card-img-top" alt="Caregiver 4">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Sunita Rao</h5>
+                  <small class="text-muted">Physio Assistant</small>
+                  <p class="card-text mt-2 mb-3 text-muted small">Assists mobility exercises and rehabilitation plans with empathy.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="rating">⭐️ 4.7</div>
+                    <a href="sunita_rao.html" class="btn btn-sm view">View Profile</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card caregiver-card h-100 shadow-sm">
+                <img src="/images/caretaker_male2.jpg" class="card-img-top" alt="Caregiver 5">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Vikram Singh</h5>
+                  <small class="text-muted">Medication Aide</small>
+                  <p class="card-text mt-2 mb-3 text-muted small">Meticulous with schedules and safety; trained in basic first aid.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="rating">⭐️ 4.8</div>
+                    <a href="vikram_singh.html" class="btn btn-sm view">View Profile</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-12 col-md-6 col-lg-4 d-none d-lg-block">
+              <div class="card caregiver-card h-100 shadow-sm">
+                <img src="/images/caretaker_female4.jpg" class="card-img-top" alt="Caregiver 6">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title mb-1">Lakshmi Nair</h5>
+                  <small class="text-muted">Respite Care</small>
+                  <p class="card-text mt-2 mb-3 text-muted small">Warm, patient and excellent at creating routine and comfort for seniors.</p>
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <div class="rating">⭐️ 4.9</div>
+                    <a href="lakshmi_nair.html" class="btn btn-sm view">View Profile</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Add more .carousel-item slides as needed -->
+      </div>
+
+      <!-- Optional indicators -->
+      <div class="carousel-indicators mt-4">
+        <button type="button" data-bs-target="#caregiversCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#caregiversCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- search bar -->
+<div class="container mb-4">
+  <div class="input-group">
+    <input 
+      type="text" 
+      id="caregiverSearch" 
+      class="form-control" 
+      placeholder="Search caregivers by name or qualification or ratings..."
+    >
+    <button class="btn text-light" id="searchBtn">Search</button>
+  </div>
+</div>
+
+
+
+
+<!-- reviews -->
+
+
+<section id="bubbleReviews" class="py-5 text-center" >
+  <div class="container">
+    <h2 class="fw-bold mb-5 rev">Client Testimonials</h2>
+
+    <div class="bubble-row">
+
+      <div class="bubble-card">
+        <img src="/images/review1.jpg" class="bubble-img">
+        <p>“The caregiver treated my father with so much patience and love.”</p>
+        <h6>- Maria L</h6>
+      </div>
+
+      <div class="bubble-card delay-1">
+        <img src="/images/review3.jpg" class="bubble-img">
+        <p>“Reliable service! I felt at peace knowing help was always available.”</p>
+        <h6>- John Daniel</h6>
+      </div>
+
+      <div class="bubble-card delay-2">
+        <img src="/images/review2 (1).jpg" class="bubble-img">
+        <p>“Supportive and kind staff. Highly recommend!”</p>
+        <h6>- Sonia DS</h6>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- contact -->
+
+
+<section class="contact-section-lav" id="contact">
+  <!-- Curved Top -->
+  <svg viewBox="0 0 1440 120" preserveAspectRatio="none" class="curve">
+    <path
+      d="M0,80 C240,120 480,0 720,20 960,40 1200,120 1440,80 L1440,0 L0,0 Z"
+      fill="#ffffff">
+    </path>
+  </svg>
+
+  <div class="container">
+    <h2 class="text-center mb-3">Contact Us</h2>
+    <p class="text-center mb-5">
+      Compassionate care starts with a simple conversation
+    </p>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Email Address">
+          </div>
+          <div class="col-12">
+            <input type="text" class="form-control" placeholder="Phone Number">
+          </div>
+          <div class="col-12">
+            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button class="btn contact-btn">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer -->
+
+
+<footer class="footer-lav">
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6">
+        <h4 class="footer-brand">CareTakerHub</h4>
+        <p>
+          Trusted caregiving services focused on comfort,
+          dignity, and peace of mind for seniors.
+        </p>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <h5>Our Details</h5>
+        <ul class="footer-list">
+          <li>📍 Kochi, Kerala</li>
+          <li>📞 +91 98765 43210</li>
+          <li>✉️ care@caretakerhub.com</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <h5>Quick Links</h5>
+        <ul class="footer-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about_us">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#caregivers">Caregivers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="text-center footer-bottom">
+      © 2025 <strong>CareTakerHub</strong>. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  // js
+
+
+  
+document.getElementById("searchBtn").onclick = function () {
+  let q = document.getElementById("caregiverSearch").value.toLowerCase();
+
+  // select ALL caregiver cards inside carousel
+  let cards = document.querySelectorAll(".caregiver-card");
+
+  cards.forEach(card => {
+    let text = card.innerText.toLowerCase();   // includes name, qualification, rating, etc.
+
+    // show card if it matches search
+    card.style.display = text.includes(q) ? "" : "none";
+  });
+};
+
+
+document.getElementById("caregiverSearch").addEventListener("keyup", function(e){
+  if (e.key === "Enter") {
+    document.getElementById("searchBtn").click();
+  }
+});
+
+
+
+// contact js
+
+document.querySelector(".contact-btn").onclick = function (e) {
+  e.preventDefault(); // prevent page reload
+
+  let nameInput = document.querySelector('input[placeholder="Your Name"]');
+  let emailInput = document.querySelector('input[placeholder="Email Address"]');
+  let phoneInput = document.querySelector('input[placeholder="Phone Number"]');
+  let messageInput = document.querySelector('textarea[placeholder="Your Message"]');
+
+  let name = nameInput.value.trim();
+  let email = emailInput.value.trim();
+  let phone = phoneInput.value.trim();
+  let message = messageInput.value.trim();
+
+  if (name === "" || email === "" || phone === "" || message === "") {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  let emailCheck = /\S+@\S+\.\S+/;
+  if (!emailCheck.test(email)) {
+    alert("Enter a valid email address.");
+    return;
+  }
+
+  if (phone.length < 10) {
+    alert("Enter a valid phone number.");
+    return;
+  }
+
+  alert("Message sent successfully!");
+
+  // ✅ Immediately reset fields
+  nameInput.value = "";
+  emailInput.value = "";
+  phoneInput.value = "";
+  messageInput.value = "";
+};
+
+
+
+</script>
+
+</body>
+</html>
