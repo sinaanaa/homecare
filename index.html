@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CareTakerHub</title>
+    <title>CareForYou</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"  crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="homecare.css">
@@ -13,6 +13,17 @@
     <!-- title icon -->
     <link rel="icon" type="image/x-icon" href="/images/careicon2.png">  
 
+    <!-- email js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "9UVaTTY0-2l7Smd53",
+      });
+   })();
+</script>
 
   </head>
 <body>
@@ -23,7 +34,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm py-3 sticky-top">
     <div class="container">
-        <a class="navbar-brand fw-bold fs-4 " href="#"><h2 class="n">CareTakerHub</h2></a>
+        <a class="navbar-brand fw-bold fs-4 " href="#"><h2 class="n" style="font-weight: bold;">CareForYou</h2></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -140,7 +151,7 @@
 <!--services-->
 
 
-<section class="why-choose-us py-5" id="services">
+<section class="why-choose-us py-5" >
   <div class="container">
 
     <div class="text-center mb-4">
@@ -263,7 +274,7 @@
             <!-- Card 1 -->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card caregiver-card h-100 shadow-sm">
-                <img src="/mini_project/images/caretaker_female7.jpg" class="card-img-top" alt="Caregiver 1">
+                <img src="./images/caretaker_female7.jpg" class="card-img-top" alt="Caregiver 1">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title mb-1">Anita Sharma</h5>
                   <small class="text-muted">Senior Caregiver</small>
@@ -279,7 +290,7 @@
             <!-- Card 2 -->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card caregiver-card h-100 shadow-sm">
-                <img src="/mini_project/images/caretaker_male1.jpg" class="card-img-top" alt="Caregiver 2">
+                <img src="./images/caretaker_male1.jpg" class="card-img-top" alt="Caregiver 2">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title mb-1">Ramesh Kumar</h5>
                   <small class="text-muted">Nursing Assistant</small>
@@ -295,7 +306,7 @@
             <!-- Card 3 -->
             <div class="col-12 col-md-6 col-lg-4 d-none d-lg-block">
               <div class="card caregiver-card h-100 shadow-sm">
-                <img src="/mini_project/images/caretaker_female6.jpg" class="card-img-top" alt="Caregiver 3">
+                <img src="./images/caretaker_female6.jpg" class="card-img-top" alt="Caregiver 3">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title mb-1">Meera Patel</h5>
                   <small class="text-muted">Companion & Therapist</small>
@@ -316,7 +327,7 @@
             <!-- Card 4 -->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card caregiver-card h-100 shadow-sm">
-                <img src="/mini_project/images/caretaker_female5.jpg" class="card-img-top" alt="Caregiver 4">
+                <img src="./images/caretaker_female5.jpg" class="card-img-top" alt="Caregiver 4">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title mb-1">Sunita Rao</h5>
                   <small class="text-muted">Physio Assistant</small>
@@ -332,7 +343,7 @@
             <!-- Card 5 -->
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card caregiver-card h-100 shadow-sm">
-                <img src="/mini_project/images/caretaker_male2.jpg" class="card-img-top" alt="Caregiver 5">
+                <img src="./images/caretaker_male2.jpg" class="card-img-top" alt="Caregiver 5">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title mb-1">Vikram Singh</h5>
                   <small class="text-muted">Medication Aide</small>
@@ -348,7 +359,7 @@
             <!-- Card 6 -->
             <div class="col-12 col-md-6 col-lg-4 d-none d-lg-block">
               <div class="card caregiver-card h-100 shadow-sm">
-                <img src="/mini_project/images/caretaker_female4.jpg" class="card-img-top" alt="Caregiver 6">
+                <img src="./images/caretaker_female4.jpg" class="card-img-top" alt="Caregiver 6">
                 <div class="card-body d-flex flex-column">
                   <h5 class="card-title mb-1">Lakshmi Nair</h5>
                   <small class="text-muted">Respite Care</small>
@@ -403,19 +414,19 @@
     <div class="bubble-row">
 
       <div class="bubble-card">
-        <img src="/mini_project/images/review1.jpg" class="bubble-img">
+        <img src="./images/review1.jpg" class="bubble-img">
         <p>“The caregiver treated my father with so much patience and love.”</p>
         <h6>- Maria L</h6>
       </div>
 
       <div class="bubble-card delay-1">
-        <img src="/mini_project/images/review3.jpg" class="bubble-img">
+        <img src="./images/review3.jpg" class="bubble-img">
         <p>“Reliable service! I felt at peace knowing help was always available.”</p>
         <h6>- John Daniel</h6>
       </div>
 
       <div class="bubble-card delay-2">
-        <img src="/mini_project/images/review2 (1).jpg" class="bubble-img">
+        <img src="./images/review2 (1).jpg" class="bubble-img">
         <p>“Supportive and kind staff. Highly recommend!”</p>
         <h6>- Sonia DS</h6>
       </div>
@@ -438,33 +449,37 @@
     </path>
   </svg>
 
-  <div class="container">
-    <h2 class="text-center mb-3">Contact Us</h2>
-    <p class="text-center mb-5">
+  <div class="contact-card">
+    <h2 class="text-center mb-2">Contact Us</h2>
+    <p class="text-center mb-4 text-muted">
       Compassionate care starts with a simple conversation
     </p>
 
-    <div class="row justify-content-center">
-      <div class="col-lg-8">
-        <div class="row g-4">
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Your Name">
-          </div>
-          <div class="col-md-6">
-            <input type="email" class="form-control" placeholder="Email Address">
-          </div>
-          <div class="col-12">
-            <input type="text" class="form-control" placeholder="Phone Number">
-          </div>
-          <div class="col-12">
-            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
-          </div>
-          <div class="col-12 text-center">
-            <button class="btn contact-btn">Send Message</button>
-          </div>
+    <form id="contact-form">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+        </div>
+
+        <div class="col-md-6">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+
+        <div class="col-12">
+          <input type="text" name="phone" class="form-control" placeholder="Phone Number" required>
+        </div>
+
+        <div class="col-12">
+          <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+
+        <div class="col-12 text-center">
+          <button type="submit" class="btn contact-btn">
+            Send Message
+          </button>
         </div>
       </div>
-    </div>
+    </form>
   </div>
 </section>
 
@@ -477,7 +492,7 @@
     <div class="row gy-4">
 
       <div class="col-lg-4 col-md-6">
-        <h4 class="footer-brand">CareTakerHub</h4>
+        <h4 class="footer-brand">CareForYou</h4>
         <p>
           Trusted caregiving services focused on comfort,
           dignity, and peace of mind for seniors.
@@ -489,7 +504,7 @@
         <ul class="footer-list">
           <li>📍 Kochi, Kerala</li>
           <li>📞 +91 98765 43210</li>
-          <li>✉️ care@caretakerhub.com</li>
+          <li>✉️ care@careforyou.com</li>
         </ul>
       </div>
 
@@ -509,7 +524,7 @@
     <hr>
 
     <div class="text-center footer-bottom">
-      © 2025 <strong>CareTakerHub</strong>. All Rights Reserved.
+      © 2025 <strong>CareForYou</strong>. All Rights Reserved.
     </div>
   </div>
 </footer>
@@ -544,43 +559,35 @@ document.getElementById("caregiverSearch").addEventListener("keyup", function(e)
 
 // contact js
 
-document.querySelector(".contact-btn").onclick = function (e) {
-  e.preventDefault(); // prevent page reload
+ (function () {
+      emailjs.init("9UVaTTY0-2l7Smd53"); // 🔑 Replace with EmailJS Public Key
+    })();
 
-  let nameInput = document.querySelector('input[placeholder="Your Name"]');
-  let emailInput = document.querySelector('input[placeholder="Email Address"]');
-  let phoneInput = document.querySelector('input[placeholder="Phone Number"]');
-  let messageInput = document.querySelector('textarea[placeholder="Your Message"]');
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
 
-  let name = nameInput.value.trim();
-  let email = emailInput.value.trim();
-  let phone = phoneInput.value.trim();
-  let message = messageInput.value.trim();
-
-  if (name === "" || email === "" || phone === "" || message === "") {
-    alert("Please fill in all fields.");
-    return;
-  }
-
-  let emailCheck = /\S+@\S+\.\S+/;
-  if (!emailCheck.test(email)) {
-    alert("Enter a valid email address.");
-    return;
-  }
-
-  if (phone.length < 10) {
-    alert("Enter a valid phone number.");
-    return;
-  }
-
-  alert("Message sent successfully!");
+      emailjs.sendForm(
+        "service_ell74ma",    // 🔁 Replace with Service ID
+        "template_9tg7rff",   // 📄 Replace with Template ID
+        this
+      ).then(
+        function () {
+          alert("Message sent successfully ❤️");
+          document.getElementById("contact-form").reset();
+        },
+        function (error) {
+          alert("Failed to send message 😢");
+          console.error(error);
+        }
+      );
+    });
 
   // ✅ Immediately reset fields
-  nameInput.value = "";
-  emailInput.value = "";
-  phoneInput.value = "";
-  messageInput.value = "";
-};
+ // nameInput.value = "";
+ // emailInput.value = "";
+  //phoneInput.value = "";
+ // messageInput.value = "";
+//};
 
 </script>
 </body>
